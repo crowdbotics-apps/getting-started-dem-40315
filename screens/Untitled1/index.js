@@ -1,7 +1,7 @@
-import { StyleSheet, SafeAreaView } from "react-native";
+import { StyleSheet, SafeAreaView, Text } from "react-native";
 
 const GettingStarted = () => {
-  return <SafeAreaView style={styles.safeArea}></SafeAreaView>;
+  return <SafeAreaView style={styles.safeArea}><Text> This is text</Text></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
